@@ -8,7 +8,7 @@ This is the Python Code which applies the KP model onto a given flux density (al
 
 
 
-
+```#PythonCodeForNorthernLobeRegion
 import numpy as np
 import math as m
 from matplotlib import pyplot as plt
@@ -197,3 +197,5 @@ yerr = np.array([9.14, 1.68, 0.018672, 0.018989, 0.009504, 0.010558])
 
 
 superfit_hydra(2.00, xdata, ydata, yerr)
+
+```
