@@ -1,5 +1,5 @@
 # KPModelPythonCode
-This is the Python Code which was used by Mika Naidoo for her Masters thesis and it applies the KP model onto the given flux density data to produce predicted fluxes and condcut a grid search which finds the spectral age and magnetic field values which pproduce the minimum chi-square.
+This is the Python Code which applies the KP model onto a given flux density (alongside its corresponding error and frequency)to produce predicted fluxes and conduct a grid search which finds the spectral age and magnetic field values which produce the minimum chi-square. The code is for the data asosciated with the Northern Lobe Region of Hydra A as defined by Mika Naidoo for her master's thesis which is where this code originates from.
 
 
 
@@ -8,7 +8,7 @@ This is the Python Code which was used by Mika Naidoo for her Masters thesis and
 
 
 
-#GridSearchfortheNorthernLobeRegionofHydraA
+
 import numpy as np
 import math as m
 from matplotlib import pyplot as plt
